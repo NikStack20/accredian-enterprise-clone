@@ -2,7 +2,7 @@ type PrimaryButtonProps = {
   text: string;
 };
 
-export default function PrimaryButton({
+export function PrimaryButton({
   text,
 }: PrimaryButtonProps) {
   return (

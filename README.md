@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise Landing Page Clone
 
-## Getting Started
+## Overview
 
-First, run the development server:
+A production-quality frontend clone of the Accredian Enterprise landing page, built as part of an internship assignment. The project focuses on clean architecture, reusable components, responsive design, and maintainable code rather than pixel-perfect accuracy.
+
+This project recreates the core marketing sections of an enterprise learning platform, including the hero, statistics, feature highlights, course offerings, testimonials, FAQs, and call-to-action sections, all built using a scalable component-based architecture.
+
+## Features
+
+- Fully responsive enterprise landing page (desktop, tablet, mobile)
+- Reusable, composable UI components
+- Modern component architecture with clear separation of concerns
+- Type-safe components using TypeScript interfaces
+- Consistent design system across all sections
+- Clean, predictable folder structure
+- Accessible, semantic markup
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Linting:** ESLint
+- **Icons:** Lucide React
+
+No backend, database, or authentication is included in this project.
+
+## Sections
+
+| Section | Description |
+|---|---|
+| Hero | Primary landing banner with heading, CTA, and imagery |
+| Track Record | Key statistics and platform metrics |
+| Companies | Trusted enterprise logos |
+| Enterprise Edge | Core value propositions for enterprises |
+| Domain Expertise | Technology domains covered by the platform |
+| Course Segmentation | Program, industry, topic, and level-specific offerings |
+| Who Should Join | Target audience segments |
+| CAT Framework | Concept, Application, and Tools learning methodology |
+| Delivery Process | Step-by-step program delivery workflow |
+| FAQ | Frequently asked questions with accordion interaction |
+| Testimonials | Client and learner feedback |
+| CTA | Final call-to-action banner |
+| Footer | Site links, contact information, and social channels |
+
+## Folder Structure
+
+```
+accredian-enterprise-clone/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   │
+│   ├── sections/
+│   │   ├── Hero.tsx
+│   │   ├── TrackRecord.tsx
+│   │   ├── Companies.tsx
+│   │   ├── EnterpriseEdge.tsx
+│   │   ├── DomainExpertise.tsx
+│   │   ├── CourseSegmentation.tsx
+│   │   ├── WhoShouldJoin.tsx
+│   │   ├── CATFramework.tsx
+│   │   ├── DeliveryProcess.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── Testimonials.tsx
+│   │   └── CTA.tsx
+│   │
+│   └── ui/
+│       ├── Container.tsx
+│       ├── PrimaryButton.tsx
+│       ├── SectionHeading.tsx
+│       ├── StatCard.tsx
+│       ├── FeatureCard.tsx
+│       ├── CourseCard.tsx
+│       ├── FrameworkCard.tsx
+│       └── ProcessCard.tsx
+│
+└── public/
+    └── assets/
+```
+
+## Installation
+
+Clone the repository and install dependencies.
+
+```bash
+git clone <repository-url>
+cd accredian-enterprise-clone
+npm install
+```
+
+## Run Locally
+
+Start the development server.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a production build.
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Add CMS integration for dynamic content management
+- Introduce animation and scroll-based transitions
+- Add dark mode support
+- Integrate analytics and performance monitoring
+- Add unit and integration tests
+- Improve accessibility coverage (WCAG compliance)
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built as part of a frontend engineering internship assignment.

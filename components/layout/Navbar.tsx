@@ -9,11 +9,11 @@ export default function Navbar() {
 
         {/* Navigation */}
         <ul className="hidden gap-8 font-medium text-gray-700 md:flex">
-          <li className="cursor-pointer hover:text-blue-600">Home</li>
-          <li className="cursor-pointer hover:text-blue-600">Programs</li>
-          <li className="cursor-pointer hover:text-blue-600">Refer & Earn</li>
-          <li className="cursor-pointer hover:text-blue-600">Resources</li>
-          <li className="cursor-pointer hover:text-blue-600">About</li>
+          <li className="cursor-pointer text-gray-600 hover:text-blue-600">Home</li>
+          <li className="cursor-pointer text-gray-600 hover:text-blue-600">Programs</li>
+          <li className="cursor-pointer text-gray-600 hover:text-blue-600">Refer & Earn</li>
+          <li className="cursor-pointer text-gray-600 hover:text-blue-600">Resources</li>
+          <li className="cursor-pointer text-gray-600 hover:text-blue-600">About</li>
         </ul>
 
         {/* CTA */}

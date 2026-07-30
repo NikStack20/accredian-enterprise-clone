@@ -1,0 +1,38 @@
+accredian-enterprise-clone/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   │
+│   ├── sections/
+│   │   ├── Hero.tsx
+│   │   ├── TrackRecord.tsx
+│   │   ├── Companies.tsx
+│   │   ├── EnterpriseEdge.tsx
+│   │   ├── DomainExpertise.tsx
+│   │   ├── CourseSegmentation.tsx
+│   │   ├── WhoShouldJoin.tsx
+│   │   ├── CATFramework.tsx
+│   │   ├── DeliveryProcess.tsx
+│   │   ├── Partnerships.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── Testimonials.tsx
+│   │   └── CTA.tsx
+│   │
+│   └── ui/
+│       ├── Container.tsx
+│       ├── PrimaryButton.tsx
+│       ├── SectionHeading.tsx
+│       ├── StatCard.tsx
+│       ├── FeatureCard.tsx
+│       ├── CourseCard.tsx
+│       ├── FrameworkCard.tsx
+│       └── ProcessCard.tsx
+│
+└── public/
+    └── assets/

@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-title: "Accredian Enterprise Clone",
-description:
-"Responsive enterprise landing page built using Next.js.",
+export const metadata: Metadata = {
+  title: "Accredian Enterprise Landing Page Clone",
+  description:
+    "Responsive enterprise landing page built using Next.js, TypeScript and Tailwind CSS.",
 };
 
 export default function RootLayout({

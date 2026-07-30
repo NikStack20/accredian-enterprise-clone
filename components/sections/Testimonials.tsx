@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
     review:
       "Exceptional mentorship and real-world project exposure. Accredian's programs are genuinely built for enterprise-scale impact.",
     rating: 4,
-    image: "/assets/testimonials/testimonial-3.webp",
+    image: "/assets/testimonials/testimonial-33.webp",
   },
 ];
 
